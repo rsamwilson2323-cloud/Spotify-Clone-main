@@ -41,14 +41,7 @@ A modern Spotify Clone built using React, Vite, HTML, CSS, and JavaScript. This 
 
 ---
 
-## 📦 Requirements
-
-- Node.js installed  
-- npm  
-
----
-
-## ⚙️ Installation & Setup
+## 📦 Installation
 
 ### 1️⃣ Clone the repository
 git clone https://github.com/rsamwilson2323-cloud/Spotify-Clone-main.git
@@ -56,7 +49,7 @@ git clone https://github.com/rsamwilson2323-cloud/Spotify-Clone-main.git
 ### 2️⃣ Navigate into the project
 cd Spotify-Clone-main
 
-### 3️⃣ Install dependencies (if needed)
+### 3️⃣ Install dependencies
 npm install
 
 ---
@@ -69,22 +62,17 @@ npm run dev
 ### Build for production
 npm run build
 
+### Preview production build
+npm run preview
+
 ---
 
 ## 🌐 Usage
 
-1. Open the app in browser (after running dev server)  
-2. Browse songs  
-3. Play / Pause music  
-4. Navigate between tracks  
-
----
-
-## 🖼️ Output
-
-- Spotify-style homepage UI  
-- Music player controls  
-- Responsive layout for all devices  
+1. Run the project using `npm run dev`  
+2. Open the local server link in browser  
+3. Explore the Spotify-style interface  
+4. Play / Pause music and navigate tracks  
 
 ---
 
@@ -92,27 +80,9 @@ npm run build
 
 - React component-based UI  
 - Fast bundling with Vite  
-- Dynamic rendering of music data  
+- Dynamic rendering of content  
 - Interactive playback controls  
-
----
-
-## ⚠️ Note
-
-This repository currently includes the `node_modules` folder.  
-In professional projects, `node_modules` is usually excluded using `.gitignore` and installed using:
-
-npm install
-
----
-
-## 📌 Future Improvements
-
-- 🎵 Real music streaming integration  
-- 🔐 Authentication system  
-- 📃 Playlist support  
-- 🔍 Search functionality  
-- 🌙 Dark / Light theme toggle  
+- Responsive design  
 
 ---
 
